@@ -1,15 +1,13 @@
-@media handheld {
 
-	html, body {
-		background: #fff;
-		padding: 3px;
-		color: #000;
-		margin: 0;
-		}
 
-		#content {
-		font-family:arial;
-		width: 100%;
-		}
+html, body {
+	background: #fff;
+	padding: 3px;
+	color: #000;
+	margin: 0;
+	}
 
-}
+	#content {
+	font-family:arial;
+	width: 100%;
+	}
