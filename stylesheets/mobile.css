@@ -7,4 +7,11 @@
 		margin: 0;
 		}
 
+		#content {
+		font-family:arial;
+		margin-bottom: 30px;
+		margin-right: 20px;
+		margin-left: 20px;
+		}
+
 }
