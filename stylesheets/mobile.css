@@ -1,13 +1,17 @@
+@media handheld {
 
+	html, body {
+		background: #fff;
+		padding: 3px;
+		color: #000;
+		margin: 0;
+		float: none;
+		}
 
-html, body {
-	background: #fff;
-	padding: 3px;
-	color: #000;
-	margin: 0;
-	}
+		#content {
+		font-family:arial;
+		width: 100%;
+		float: none;
+		}
 
-	#content {
-	font-family:arial;
-	width: 100%;
-	}
+}
