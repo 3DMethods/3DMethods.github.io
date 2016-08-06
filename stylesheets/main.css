@@ -22,7 +22,9 @@ div.desc {
     text-align: center;
 }
 
-
+#quotes {
+  font-size: 15px;
+}
 
 th, td {
     padding: 10px;
