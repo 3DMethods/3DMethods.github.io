@@ -1,15 +1,36 @@
 
+hr {
+    /*display: block;*/
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 60%;
+}
 
+
+
+a {
+    color: #5ab8dd;
+    border:none;
+    outline:none;
+}
+img {
+    border:none;
+    outline:none;
+}
+
+body {
+    background-color: #171717;
+}
 
 div.img {
     margin: 5px;
-    border: 1px solid #ccc;
+    /*border: 1px solid #ccc;*/
     float: left;
-    width: 180px;
+    width: 267px;
 }
 
 div.img:hover {
-    border: 1px solid #777;
+    /*border: 1px solid #777;*/
 }
 
 div.img img {
@@ -18,8 +39,11 @@ div.img img {
 }
 
 div.desc {
-    padding: 15px;
+    padding: 10px;
     text-align: center;
+    color: #f1f1f1;
+    font-size: 18px;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
 
 #quotes {
@@ -41,13 +65,16 @@ th, td {
    margin-right: auto;
 }
 
-
+h2 {
+  color: #f1f1f1;
+}
 
 #content {
-font-family:arial;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 margin-bottom: 30px;
 margin-right: 26%;
 margin-left: 26%;
+color: #BBC;
 }
 
 #feature {
@@ -64,14 +91,24 @@ text-align: center;
 
 #nav { text-align: center; }
 #nav li {list-style: none; display: inline-block; }
-#nav a {color: #d08600; display: block;font-size: 13px; font-family:arial; text-transform: uppercase; font-weight: bold; margin: 0; padding: 9px 18px 9px; text-decoration: none; }
-#nav a:hover {background-color: #d08600; color: #fff; }
+#nav a {
+  color: #f1f1f1; display: block;font-size: 18px; font-weight: bold; margin: 0; padding: 9px 18px 9px; text-decoration: none;
+
+
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+
+}
+#nav a:hover {
+text-decoration: underline;
+/*color: #13aff0;*/
+ }
 
 #nav .active{
-background-color: #d08600; color: #fff;
+/*background-color: #121212;*/
+text-decoration: underline;
 }
 
 
 footer {
-    text-align: center;
+    text-align: center; color: #f1f1f1;
 }
