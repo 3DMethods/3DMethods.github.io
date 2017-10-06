@@ -6,7 +6,9 @@ hr {
     width: 60%;
 }
 
-
+hr.side {
+      width: 100%;
+}
 
 a {
     color: #5ab8dd;
