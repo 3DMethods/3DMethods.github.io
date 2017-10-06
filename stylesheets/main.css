@@ -88,10 +88,7 @@ text-align: center;
 }
 
 #banner {
-/*text-align: center;*/
-margin: 0px auto;
-float: none;
-display: table;
+text-align: center;
 }
 
 .centerimage {
