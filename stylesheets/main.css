@@ -31,6 +31,30 @@ div.img {
     width: 267px;
 }
 
+
+div.softwareimg {
+    /*border: 1px solid #ccc;*/
+    text-align: center;
+}
+
+
+div.projectdesc {
+    /*border: 1px solid #ccc;*/
+    line-height: 1.6;
+}
+
+
+div.softwaredesc {
+    /*border: 1px solid #ccc;*/
+    text-align: center;
+    font-size: 14px;
+}
+
+
+
+
+
+
 div.img:hover {
     /*border: 1px solid #777;*/
 }
