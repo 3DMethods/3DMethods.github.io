@@ -56,7 +56,7 @@ div.softwaredesc {
 
 
 div.img:hover {
-    /*border: 1px solid #777;*/
+    /* border: 1px solid #777; */
 }
 
 div.img img {
@@ -72,6 +72,28 @@ div.desc {
     font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
 
+div.imagedesc {
+    padding: 10px;
+    text-align: center;
+    color: #BBC;
+    font-size: 14px;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+
+
+div.desc a{
+    color: #f1f1f1;
+    text-decoration: none;
+}
+
+
+div.desc a:hover {
+text-decoration: underline;
+/*color: #13aff0;*/
+ }
+
+
+
 #quotes {
   font-size: 15px;
 }
@@ -85,6 +107,20 @@ th, td {
    margin-right: auto;
 }
 
+
+
+
+
+/* td a:hover {
+    border: 5px solid #333333;
+    overflow: hidden;
+} */
+
+.appscentered-table a:hover img{
+  -moz-box-shadow: 0 0 10px #ccc;
+  -webkit-box-shadow: 0 0 10px #ccc;
+  box-shadow: 0 0 10px #ccc;
+}
 
 .appscentered-table {
    margin-left: auto;
